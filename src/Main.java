@@ -131,7 +131,7 @@ public class Main {
         }
     }
 
-    // ===== SHARED DISPLAY HELPERS (we will reuse these later) =====
+    // ===== SHARED DISPLAY HELPERS =====
     static void printHeader() {
         System.out.printf("%-8s %-20s %-12s %-14s %s%n",
                 "Reg No.", "Name", "Reg Date", "Ticket", "Checked In");
