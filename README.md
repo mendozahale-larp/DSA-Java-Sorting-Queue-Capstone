@@ -51,7 +51,7 @@ The check-in line is a `Queue<Integer>` implemented with `LinkedList`:
 - `add` enqueues a participant at the back of the line.
 - `poll` dequeues the participant at the front and marks them as checked in.
 - `peek` views the front of the line without removing anyone.
-- `isEmpty` is checked before every queue operation to show a message when the line is empty.
+- `isEmpty` is checked before dequeue, peek, and display to show a message when the line is empty.
 
 The queue stores **registration numbers** instead of list positions. A registration number never changes, but a position in the ArrayLists changes whenever the records are sorted. Because of this, sorting the records never changes the order of the check-in line.
 
