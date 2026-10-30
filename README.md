@@ -1,4 +1,6 @@
 # Event Registration and Check-In System
+Hale Justine S. Mendoza
+BSIT | IT2A
 
 ## Project Description
 A console-based Java application that manages participants arriving at an event. Organizers register participants, add them to a check-in line, and check them in one at a time. Without a system like this, check-in at an event can become disorganized: people are served out of order, records are hard to find, and it is unclear who has already arrived.
